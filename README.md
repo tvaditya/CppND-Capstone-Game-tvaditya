@@ -31,6 +31,16 @@ In this project, you can build your own C++ application or extend this Snake gam
 4. Compile: `cmake .. && make`
 5. Run it: `./SnakeGame`.
 
+## Structure
+1. We have the following folders assets, configFiles, src ( this is a cmake project so you also see cmake and build folders)
+2. main.cpp is our maind class and it is where game runs 
+3. controller.cpp has all controling information like what keys to use to move around the game
+4. rendered.cpp renderizes all game objects
+5. snake.cpp creates and updates the snakes body and defines how it moves
+6. obstacles.cpp creates a speeder of snake hits it it speeds up
+7. slowers.cpp makes the snake move slower
+8. wall.cpp creates a wall object in that kills the sanke of it hits it.
+
 ## What the project has according to rubric
 1. This README file with instructions on how to run it
 2. The README indicates that I chose the SnakeGame and enhanced it with obstacles
@@ -39,7 +49,7 @@ In this project, you can build your own C++ application or extend this Snake gam
 5. It uses functions check Snake.cpp
 6. It uses loops check per example Wall.cpp 
 7. It reads data from a file which is in the configFiles folder you can see it game.cpp line 17
-8. It uses Object Orientation with classes and headers ( checl all .cpp folders)
+8. It uses Object Orientation with classes and headers ( check all .cpp folders)
 9. Within the .cpp and .h  files you can see speicifiers for class members
 10. Within the same files you can see member initializaton lists
 11. Within some classes you can see abstract implementation details from their interfaces 
