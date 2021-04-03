@@ -1,0 +1,2 @@
+numberOfSlowers 22
+numberOfObstacles 22
