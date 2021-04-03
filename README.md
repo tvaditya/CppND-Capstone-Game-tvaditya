@@ -31,6 +31,21 @@ In this project, you can build your own C++ application or extend this Snake gam
 4. Compile: `cmake .. && make`
 5. Run it: `./SnakeGame`.
 
+## What the project has according to rubric
+1. This README file with instructions on how to run it
+2. The README indicates that I chose the SnakeGame and enhanced it with obstacles
+3. You can run it with cmake and make
+4. We have the class structure as well.
+5. It uses functions check Snake.cpp
+6. It uses loops check per example Wall.cpp 
+7. It reads data from a file which is in the configFiles folder you can see it game.cpp line 17
+8. It uses Object Orientation with classes and headers ( checl all .cpp folders)
+9. Within the .cpp and .h  files you can see speicifiers for class members
+10. Within the same files you can see member initializaton lists
+11. Within some classes you can see abstract implementation details from their interfaces 
+12. Within classes you can see encapsulated behaviour
+13. The slowers and obstacles are shared pointers
+14. Classes use move semnatics whereever is possible
 
 ## CC Attribution-ShareAlike 4.0 International
 
